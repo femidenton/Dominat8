@@ -1,0 +1,87 @@
+/* the layers of tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: "Montserrat", system-ui, sans-serif;
+    }
+  }
+
+  .top-fold{
+    background: radial-gradient(50% 50% at 50% 50%, #134E78 0%, #111A1F 100%);
+   
+  }
+
+  .download-button{
+    padding: 8px;
+    height: 60px;
+    width: 145px;
+  }
+
+.download-button img{
+    width: 30px;
+}
+
+.download-button-text{
+    font-size: 10px;
+}
+
+.download-button-boldText{
+    font-size: 12px;
+}
+
+#why-dominate{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.82) 100%), url('../assets/section-background.jpeg'), lightgray -587.359px 0px / 167.981% 100% no-repeat;
+    background-size: cover;
+}
+
+
+/* Hamburger menu */
+.hamburger{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle{
+    transform: translateY(7px);
+}
+
+.hamburger-bottom{
+    transform: translateY(14px);
+}
+
+.open{
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle{
+    display: none;
+}
+
+
+.open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}

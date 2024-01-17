@@ -1,0 +1,334 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dominat8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="top-fold md:h-[78vh]">
+      <!-- Navbar -->
+      <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <img src="assets/Vector (1).svg" alt="/" />
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden md:flex space-x-24 mt-4">
+            <a
+              href="#"
+              class="text-white text-lg hover:underline decoration-underlineText underline-offset-8"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="text-white text-lg hover:underline decoration-underlineText underline-offset-8"
+              >Social</a
+            >
+          </div>
+          <!-- Button -->
+          <a
+            href="#"
+            class="hidden md:block p-3 px-20 pt-2 text-primaryBlueText font-bold bg-white rounded-2xl baseline hover:bg-brightRedLight"
+            >Download
+          </a>
+
+          <!-- Hamburger Icon -->
+          <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+
+          <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+              <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+              <a href="#" class="hover:text-darkGrayishBlue">Social</a>
+             
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section id="hero">
+        <!-- flex container -->
+        <div
+          class="container flex flex-col md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
+        >
+          <!-- left item -->
+          <div class="flex flex-col mt-14 mb-32 space-y-9 md:w-1/2">
+            <!-- Hero text -->
+            <h1
+              class="max-w-md text-white text-6xl font-bold text-center md:text-5xl md:text-left"
+            >
+            Welcome to the future of gaming
+            </h1>
+
+            <!-- hero subtext -->
+            <p class="max-w-sm  text-center text-lg font-semibold text-white md:text-left">
+              Where your skills turn into winnings! Get ready to dominate in your skill and stand out as the best.
+            </p>
+
+            <!-- download buttons  -->
+            <div class="flex justify-center space-x-4 md:justify-start">
+              <!-- <a
+              href="#"
+              class="flex p-3  pt-2 items-center text-primaryBlueText  bg-white rounded-2xl baseline hover:bg-brightRedLight"
+              > -->
+              <a
+              href="#"
+              class="download-button  flex items-center text-primaryBlueText  bg-white rounded-2xl baseline hover:bg-brightRedLight"
+              >
+              <img src="assets/apple 1.svg" class="w-[30px]">
+              <span class="download-button-text block ml-4 ">IOS on the  <span class="download-button-boldText block text-lg font-bold"> App Store</span> </span> 
+            </a>
+            <a
+            href="#"
+            class="download-button flex items-center text-primaryBlueText bg-white rounded-2xl baseline hover:bg-brightRedLight"
+            >
+            <img src="assets/google-play 1.svg" class="w-[30px]">
+            <span class="download-button-text block ml-4"> Android on the <span class="download-button-boldText block text-lg font-bold">  Google Play </span> </span> 
+           
+          </a>
+            </div>
+          </div>
+
+          <!-- Image (right) -->
+          <div class="flex justify-center pb-20 md:pb-0">
+            <img src="assets/Group 10(1).png" class="md:max-w-[72%]">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Features -->
+    <section id="features" class="my-40">
+      <!-- Flex container -->
+      <div class="container flex flex-col justify-center items-center space-y-5  mx-auto mt-10  md:space-y-5">
+        <!-- row 1 -->
+        <div class="flex flex-col justify-center space-y-5 text-center md:w-1/2">
+          <div class="bg-primaryBlueText rounded-full flex w-[40px] h-[40px] mx-auto">
+            <img src="assets/fluent-mdl2_see-do.svg" class="mx-auto max-w-[50%]">
+          </div>
+          <p class="text-center text-primaryBlueText text-3xl w-[90%] mx-auto md:w-[100%]">
+            Transform your gameplay into cash wins. It's not just gaming; it's a competition.
+          </p>
+          <p class="text center text-black text-sm font-light">
+            Ready to transform your victories into rewards? Dive into a world where every move counts, and every win pays off.
+          </p>
+        </div>
+
+        <!-- row 2 -->
+        <div class="flex space-x-10 justify-evenly" id="row2">
+          <div
+          class="hidden md:flex items-center p-6 space-y-6 space-x-10 rounded-lg bg-primaryBlueText md:w-1/3"
+          >
+            <div class="bg-white rounded-full flex w-28 h-[40px] mx-auto">
+              <img src="assets/mingcute_game-2-fill.svg" class="mx-auto max-w-[50%]">
+            </div>
+            <div id="right-side">
+              <p class="font-semibold text-white">Diverse Challenges Await</p>
+              <p class="text-sm  text-white font-extralight">
+                Embark on gaming adventures without constraints. 
+                Engage in intense strategy battles or heart-pounding races—we've got something for every gamer.
+              </p>
+            </div>
+            
+          </div>
+
+          <div
+          class="hidden md:flex items-center p-6 space-y-6 space-x-10 rounded-lg bg-primaryBlueText md:w-1/3"
+          >
+            <div class="bg-white rounded-full flex w-28 h-[40px] mx-auto">
+              <img src="assets/solar_cup-bold.svg" class="mx-auto max-w-[50%]">
+            </div>
+            <div id="right-side">
+              <p class="font-semibold text-white">Compete and Win</p>
+              <p class="text-sm  text-white font-extralight">
+                Face off against opponents, give it your all, and emerge victorious to claim real cash winnings. 
+                It's not just a game; it's a competition!
+              </p>
+            </div>
+            
+          </div>
+
+        </div>
+        
+        <!-- row 3 -->
+        <div
+        class="hidden md:flex items-center p-6 space-y-6 space-x-10 rounded-lg bg-primaryBlueText md:w-1/3"
+        >
+          <div class="bg-white rounded-full flex w-28 h-[40px] mx-auto">
+            <img src="assets/solar_cup-bold.svg" class="mx-auto max-w-[50%]">
+          </div>
+          <div id="right-side">
+            <p class="font-semibold text-white">Compete and Win</p>
+            <p class="text-sm  text-white font-extralight">
+              Face off against opponents, give it your all, and emerge victorious to claim real cash winnings. 
+              It's not just a game; it's a competition!
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Why Donimate -->
+    <section class="bg-[url('/assets/section-background.jpeg')] bg-cover  mt-10 py-28" id="why-dominate">
+      <div class="container mx-auto
+       flex flex-col justify-center items-center space-y-5 mb-10">
+        <div class="text-white">Why Dominate</div>
+        <div class="text-white text-lg font-bold text-center w-[90%] md:w-[100%] md:mb-[60px]"> Connect and Conquer: Share Your Triumphs with the World!</div>
+        <div class="flex flex-row mb-[30px] w-[90%] md:mb-0 md:w-[100%] md:mt-20" id="3-column-grid">
+
+          <!-- right -->
+          <div class="w-1/2 md:w-1/3 space-y-16 md:mt-24">
+            <div class="flex">
+              <div class="bg-transparent rounded-full flex w-[90px] h-[40px] mx-auto">
+                <img src="assets/beenhere.svg" class="mx-auto max-w-[50%]">
+              </div>
+              <div id="right-side">
+                <p class="font-semibold text-white">Fair and Transparent</p>
+                <p class="text-sm  text-white font-extralight">
+                  We prioritize fair play. Every match is a test of skill and strategy, ensuring a level playing field for all.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex">
+              <div class="bg-transparent rounded-full flex w-[90px] h-[40px] mx-auto">
+                <img src="assets/beenhere.svg" class="mx-auto max-w-[50%]">
+              </div>
+              <div id="right-side">
+                <p class="font-semibold text-white">Secure Transactions</p>
+                <p class="text-sm  text-white font-extralight">
+                  Your financial transactions and winnings are handled with the utmost security. Play with confidence in a safe environment.
+                </p>
+              </div>
+            </div>
+            
+
+            
+            
+          </div>
+          <!-- center -->
+            <div class="hidden md:flex md:justify-center md:w-1/3 md:h-[30rem]">
+              <img src="assets/Group 7.png" class="h-[100%]">
+            </div>
+
+          <!-- left -->
+
+          <div class="w-1/2 md:w-1/3 space-y-16  md:mt-24">
+            <div class="flex flex-row md:flex-row-reverse">
+              <div class="bg-transparent rounded-full flex w-[90px] h-[40px] mx-auto">
+                <img src="assets/diversity_3.svg" class="mx-auto max-w-[50%]">
+              </div>
+              <div id="right-side">
+                <p class="font-semibold text-white">Vibrant Community</p>
+                <p class="text-sm  text-white font-extralight">
+                  Join a dynamic gaming community, connect with other players, and celebrate victories together
+                </p>
+              </div>
+            </div>
+
+            <div class="flex flex-row md:flex-row-reverse">
+              <div class="bg-transparent rounded-full flex-row w-[90px] h-[40px] mx-auto">
+                <img src="assets/social_leaderboard.svg" class="mx-auto max-w-[50%]">
+              </div>
+              <div id="right-side">
+                <p class="font-semibold text-white"> Leader boards and Social Sharing</p>
+                <p class="text-sm  text-white font-extralight">
+                  Track your progress on leader boards and share your achievements on your favourite social media platforms.
+                </p>
+              </div>
+            </div>
+            
+
+            
+            
+          </div>
+
+        </div>
+
+        <div class="text-white text-lg font-bold text-center w-90% mb-[30px] md:mb-0 md:w-1/3 mt-24"> No carry last o! Download dominate now, You must show others who is the king of gaming. Let’s dominate!</div>
+        <div class="flex justify-center space-x-4 md:justify-start">
+        <a
+              href="#"
+              class="download-button  flex items-center text-primaryBlueText  bg-white rounded-2xl baseline hover:bg-brightRedLight"
+              >
+              <img src="assets/apple 1.svg" class="w-[30px]">
+              <span class="download-button-text block ml-4 ">IOS on the  <span class="download-button-boldText block text-lg font-bold"> App Store</span> </span> 
+            </a>
+            <a
+            href="#"
+            class="download-button flex items-center text-primaryBlueText bg-white rounded-2xl baseline hover:bg-brightRedLight"
+            >
+            <img src="assets/google-play 1.svg" class="w-[30px]">
+            <span class="download-button-text block ml-4"> Android on the <span class="download-button-boldText block text-lg font-bold">  Google Play </span> </span> 
+           
+          </a>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container mx-auto block pb-10 md:flex md:flex-col ">
+        <!-- row 1 -->
+        <div class="block mt-[50px] md:flex md:flex-row md:mt-28 md:justify-between md:w-[100%] " >
+          <!-- column1 (logo) -->
+          <div class="w-[100%] flex justify-center mb-[45px] md:mb-0 md:justify-start md:w-1/3">
+            <img src="assets/Logo-black.svg" class="w-[30%]">
+          </div>
+
+          <!-- nav links -->
+          <div class="flex justify-center space-x-20 w-[100%] md:mt-[20px] md:w-1/3 ">
+            <a
+              href="#"
+              class="text-primaryBlueText text-lg hover:underline decoration-underlineText underline-offset-8"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="text-primaryBlueText text-lg hover:underline decoration-underlineText underline-offset-8"
+              >Social</a
+            >
+          </div>
+
+          <!-- social links -->
+          <div class="w-[100%] mt-[20px] flex justify-center md:justify-end space-x-6 md:w-1/3">
+            <img src="assets/Faccebook-icon.svg" alt="">
+            <img src="assets/Twitter-icon.svg" alt="">
+            <img src="assets/instagram-icon.svg" alt="">
+          </div>
+
+        </div>
+
+        <!-- row 2 -->
+        <div class=" my-4 w-[100%] h-[1px] bg-veryLightGray"></div>
+
+        <!-- row 3 -->
+        <div class="flex flex-col items-center md:flex-row md:justify-between">
+          <p  class="text-lightGray"> Copyright &copy: 2024, All Rights Reserved</p>
+          <div class="flex space-x-10">
+            <p class="text-lightGray">Privacy Policy</p>
+            <p class="text-lightGray">Terms & Conditions</p>
+          </div>
+        </div>  
+    </footer>
+
+  <script src="js/script.js"></script>  
+  </body>
+</html>
