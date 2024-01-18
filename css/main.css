@@ -679,6 +679,10 @@ html {
   width: 50%;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -701,10 +705,6 @@ html {
 
 .w-\[90px\] {
   width: 90px;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .max-w-\[50\%\] {
@@ -849,6 +849,10 @@ html {
   background-size: cover;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -867,6 +871,11 @@ html {
   padding-right: 1.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -875,6 +884,16 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-10 {
@@ -966,9 +985,14 @@ html {
   background: radial-gradient(50% 50% at 50% 50%, #134E78 0%, #111A1F 100%);
 }
 
+.container-padding{
+  padding-right: 5.5rem;
+  padding-left: 5.5rem;
+}
+
 .download-button{
-  padding: 8px;
-  height: 60px;
+  height: 37px;
+  padding: 3px 13px 3px 13px;
   width: 145px;
 }
 
@@ -977,11 +1001,11 @@ html {
 }
 
 .download-button-text{
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .download-button-boldText{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 #why-dominate{
@@ -1160,6 +1184,11 @@ html {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:pb-0 {

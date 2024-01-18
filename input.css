@@ -14,9 +14,14 @@
    
   }
 
+  .container-padding{
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+  }
+
   .download-button{
-    padding: 8px;
-    height: 60px;
+    height: 37px;
+    padding: 3px 13px 3px 13px;
     width: 145px;
   }
 
@@ -25,11 +30,11 @@
 }
 
 .download-button-text{
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .download-button-boldText{
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #why-dominate{
