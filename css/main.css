@@ -707,6 +707,30 @@ html {
   width: 90px;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[81px\] {
+  width: 81px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.w-\[0px\] {
+  width: 0px;
+}
+
+.w-\[70px\] {
+  width: 70px;
+}
+
 .max-w-\[50\%\] {
   max-width: 50%;
 }
